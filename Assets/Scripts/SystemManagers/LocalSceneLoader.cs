@@ -2,9 +2,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
 
-public class SceneLoader : MonoBehaviour
+public class LocalSceneLoader : MonoBehaviour
 {
-    public static SceneLoader instance;
+    public static LocalSceneLoader instance;
     private void Awake(){
         if (instance == null)
         {
