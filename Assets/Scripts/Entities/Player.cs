@@ -13,6 +13,7 @@ public class Player : MonoBehaviourPun
 
     void Start()
     {
+        DontDestroyOnLoad(gameObject);
         GetComponents();
         AssignName();
     }
